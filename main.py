@@ -4,7 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 def heart():
     # define size n = even only
-    n = 8
+    n = 12
 
     # so this heart can be made n//2 part left,
     # n//2 part right, and one middle line
@@ -46,9 +46,9 @@ def heart():
             elif i == n // 2 - 1:
 
                 if j == m // 2 - 1 or j == m // 2 + 1:
-                    print('G', end=" ")
+                    print(' ', end=" ")
                 elif j == m // 2:
-                    print('F', end=" ")
+                    print(' ', end=" ")
                 else:
                     print(' ', end=" ")
 
@@ -66,6 +66,6 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     heart()
-    print('Shabbat shalom!')
+    print('Coffee and Banana')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
